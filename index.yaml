@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  hue:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2021-01-18T11:12:29.3293329+01:00"
+    description: Hue is an SQL Cloud Editor for Data Warehouses and Databases.
+    digest: 3f1543000215b1c42b8f13dc611318b30592a97d96541817bd146eadf40fa46c
+    home: http://gethue.com/
+    icon: https://raw.githubusercontent.com/cloudera/hue/master/docs/images/hue_logo.png
+    keywords:
+    - Hue
+    - SQL
+    - Editor
+    - Catalog
+    - Visualization
+    maintainers:
+    - email: romain.rigaux@gmail.com
+      name: romainr
+    name: hue
+    sources:
+    - https://github.com/cloudera/hue
+    - https://hub.docker.com/u/gethue
+    urls:
+    - https://saddambilalov.github.io/helm-charts/hue-1.0.0.tgz
+    version: 1.0.0
+  microservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-18T11:12:29.3358982+01:00"
+    description: A Helm chart for Kubernetes
+    digest: ebceef8ce3028597fb64f6b067012c09e8270557b099c5dead32d071230ffa17
+    name: microservice
+    type: application
+    urls:
+    - https://saddambilalov.github.io/helm-charts/microservice-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-18T11:12:29.322999+01:00"
